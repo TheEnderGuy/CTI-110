@@ -24,4 +24,4 @@ miles = float(input(f"\nHow many miles will you drive the {vehicle}? "))
 gallons = miles / mpg[vehicle]
 
 #Final Print
-print(f"\n{gallons:.2} gallon(s) of gas are needed to drive the {vehicle} {miles} miles.")
+print(f"\n{gallons:.2f} gallon(s) of gas are needed to drive the {vehicle} {miles} miles.")
